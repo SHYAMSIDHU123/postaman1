@@ -1,0 +1,170 @@
+{
+	"id": "2efbcaba-b6ac-42c2-ad57-4b235f0d829b",
+	"name": "create user",
+	"timestamp": "2022-03-11T04:03:52.106Z",
+	"collection_id": "0-63281346-fec6-4372-9be5-609f4d8757ff",
+	"folder_id": 0,
+	"environment_id": "29424164-d6b8-49cc-b59c-0b77cae3cc62",
+	"totalPass": 12,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "06e48662-e88d-420a-8362-e195de5de6c4",
+			"name": "signup",
+			"time": 2865,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				4070,
+				2943,
+				2865
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f2ded115-8c62-4912-a871-e2c529786016",
+			"name": "login",
+			"time": 2922,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				2853,
+				2816,
+				2922
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "14894adf-bfbb-4650-b5a7-1fc60c3f03c5",
+			"name": "get all user",
+			"time": 1316,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				1329,
+				1387,
+				1316
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a580080f-4f97-4a0d-af01-ff7999dd56f4",
+			"name": "delete",
+			"time": 692,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				792,
+				811,
+				692
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 24796,
+	"collection": {
+		"requests": [
+			{
+				"id": "06e48662-e88d-420a-8362-e195de5de6c4",
+				"method": "POST"
+			},
+			{
+				"id": "f2ded115-8c62-4912-a871-e2c529786016",
+				"method": "POST"
+			},
+			{
+				"id": "14894adf-bfbb-4650-b5a7-1fc60c3f03c5",
+				"method": "GET"
+			},
+			{
+				"id": "a580080f-4f97-4a0d-af01-ff7999dd56f4",
+				"method": "DELETE"
+			}
+		]
+	}
+}
